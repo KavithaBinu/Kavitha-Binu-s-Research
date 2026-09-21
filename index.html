@@ -3,24 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Custom Website</title>
+    <title>Kavitha K. | Academic Portfolio</title>
+    <!-- Google Fonts for premium typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Site</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Kavitha K.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Kavitha K.</h1>
+            <h2>Doctoral Research Scholar in History</h2>
+            <p>PG and Research Department of History<br>Rani Anna Government College for Women, Tirunelveli</p>
+        </div>
     </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This is my first custom coded website. It is fast, lightweight, and completely free.</p>
-            <button id="helloBtn">Say Hello</button>
+
+    <main class="container">
+        <section id="about" class="card">
+            <h3>About My Work</h3>
+            <p>I am a dedicated historian focusing on the religious and cultural transformations in southern India. My academic journey is driven by uncovering localized historical narratives and presenting them through rigorous archival research and regional studies.</p>
+        </section>
+
+        <section id="research" class="card">
+            <h3>Current Thesis</h3>
+            <div class="research-highlight">
+                <h4>Redemption of Jainism in Kanyakumari District</h4>
+                <p>This doctoral research explores the historical presence, decline, and subsequent revival phases of Jainism in the Kanyakumari region. By examining epigraphical, archaeological, and literary sources, the thesis provides a comprehensive analysis of Jainism's socio-cultural footprint in Tamil Nadu.</p>
+            </div>
         </section>
     </main>
-    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2026 Kavitha K. | Built for GitHub Pages</p>
+    </footer>
 </body>
 </html>
